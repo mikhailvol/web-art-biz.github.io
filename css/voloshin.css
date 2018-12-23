@@ -68,7 +68,7 @@ label {
   margin-left: 50px;
   padding-top: 150px;
   background-color: #374057;
-  background-image: -webkit-linear-gradient(270deg, rgba(6, 6, 25, .88), rgba(6, 6, 25, .88)), url('../images/hero-img-2-min.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 6, 25, .88)), to(rgba(6, 6, 25, .88))), url('../images/hero-img-2-min.jpg');
   background-image: linear-gradient(180deg, rgba(6, 6, 25, .88), rgba(6, 6, 25, .88)), url('../images/hero-img-2-min.jpg');
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
@@ -124,6 +124,11 @@ label {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 50px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: transparent;
 }
 
@@ -297,7 +302,6 @@ label {
 
 .section._99 {
   position: relative;
-  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, #181b5c, #060619);
   background-image: radial-gradient(circle farthest-corner at 50% 50%, #181b5c, #060619);
 }
 
@@ -1014,6 +1018,11 @@ label {
   margin-top: 20px;
 }
 
+.contacts-text {
+  margin-top: 32px;
+  color: #999;
+}
+
 html.w-mod-js *[data-ix="work-cover-initial"] {
   display: none;
   opacity: 0;
@@ -1075,6 +1084,9 @@ html.w-mod-js *[data-ix="service-2"] {
   }
   .s-btn {
     margin-right: 20px;
+  }
+  .navbar {
+    padding-right: 15px;
   }
   .nav-menu {
     margin-left: 5px;
@@ -1481,12 +1493,23 @@ html.w-mod-js *[data-ix="service-2"] {
   .slogan-wrap {
     margin-top: 10px;
   }
+  .email {
+    display: none;
+  }
 }
 
 @media (max-width: 479px) {
   .hero-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     min-height: 350px;
-    padding-top: 50px;
+    padding-top: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .s-btn {
     right: 15px;
@@ -1496,6 +1519,9 @@ html.w-mod-js *[data-ix="service-2"] {
   }
   .hero-sub-title {
     line-height: 22px;
+  }
+  .bottom-line {
+    display: none;
   }
   .section._99 {
     padding-bottom: 100px;
