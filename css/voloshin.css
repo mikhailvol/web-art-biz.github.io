@@ -1,5 +1,5 @@
 body {
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   color: #060619;
   font-size: 20px;
   line-height: 20px;
@@ -17,7 +17,7 @@ h1 {
 h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5em;
   line-height: 61px;
   font-weight: 400;
@@ -27,7 +27,7 @@ h2 {
 h3 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
   line-height: 48px;
   font-weight: 400;
@@ -36,7 +36,7 @@ h3 {
 
 p {
   margin-bottom: 0px;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 0.9em;
   line-height: 30px;
   font-weight: 400;
@@ -221,7 +221,7 @@ label {
 
 .social {
   display: inline-block;
-  font-family: 'My website icons';
+  font-family: 'My website icons', sans-serif;
   font-size: 26px;
   line-height: 1em;
   font-weight: 400;
@@ -680,7 +680,7 @@ label {
   right: 0px;
   bottom: 60px;
   display: block;
-  max-width: 144px;
+  max-width: 146px;
   margin-right: auto;
   margin-left: auto;
   padding: 9px 8px 7px 31px;
